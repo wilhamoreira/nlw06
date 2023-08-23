@@ -7,6 +7,8 @@
     <!--Style-->
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/room.css">
+    <link rel="stylesheet" href="./style/modal.css">
+
 
     <!--fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,9 +54,9 @@
                 <div class="questions">
 
                     <div class="question-wrapper">
-                        <div class="questions-content">
+                        <div class="question-content">
                             <div class="user">
-                                <img src="./assets/Avatar.svg" alt="Avatar">
+                                <img src="./assets/user.svg" alt="Avatar">
                             </div>
                             <div class="question">
                                 <p>Qual a difenrença entre ontr, var e let no javaScript ?</p>
@@ -73,9 +75,91 @@
                         </div>
                     </div>
 
+                    <div class="question-wrapper">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="./assets/user.svg" alt="Avatar">
+                            </div>
+                            <div class="question">
+                                <p>O que é javaScript ?</p>
+                            </div>
+
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="check">
+                                <img src="./assets/check.svg" alt="Marcar como lida">
+                                Marcar como lida
+                            </a>
+                            <a href="#" class="delete">
+                                <img src="./assets/trash.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="question-wrapper">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="./assets/user.svg" alt="Avatar">
+                            </div>
+                            <div class="question">
+                                <p>Você ja sabe quais bases você precisa melhorar para alcançar o proximo nível com maestria? Definiu o seu foco e objetivo para seguir em frente? Estou curioso e embasbacada com sua perseverança por ter alcançado a teceira aula eu sei que vai continuar até o fim, então responde ai pra gente!</p>
+                            </div>
+
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="check">
+                                <img src="./assets/check.svg" alt="Marcar como lida">
+                                Marcar como lida
+                            </a>
+                            <a href="#" class="delete">
+                                <img src="./assets/trash.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="question-wrapper read">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="./assets/user.svg" alt="Avatar">
+                            </div>
+                            <div class="question">
+                                <p>O que é typescript ?</p>
+                            </div>
+
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="delete">
+                                <img src="./assets/trash.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </section>
         </main>
     </div>
+
+    <!-- MODAL -->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h2>Excluir pergunta</h2>
+            <p>Tem certeza que você deseja excluir essa pergunta?</p>
+
+            <form action="">
+                <label for="password" class="sr-only">Digite sua senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+                <div class="buttons">
+                    <div class="button grey">Cancelar</div>
+                    <button class="red">Sim, excluir</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
