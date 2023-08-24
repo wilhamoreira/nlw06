@@ -1,0 +1,27 @@
+{
+  "name": "nlw06",
+  "version": "1.0.0",
+  "description": "Projetos desenvolvido para gerenciar perguntas anônimas de usuários, direcionada ao dono da página.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilhamoreira/nlw06.git"
+  },
+  "keywords": [],
+  "author": "Wilha Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilhamoreira/nlw06/issues"
+  },
+  "homepage": "https://github.com/wilhamoreira/nlw06#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
