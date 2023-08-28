@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Projetos desenvolvido para gerenciar perguntas anônimas de usuários, direcionada ao dono da página.",
   "main": "src/server.js",
+
   "scripts": {
     "start": "nodemon .",
     "init-db":  "node src/db/init.js"
